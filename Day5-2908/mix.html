@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	* {  box-sizing: border-box;}
+.header, .footer 
+{  
+	background-color: Purple;  
+	color: white;  
+	padding: 15px;
+}
+.column 
+{  
+	float: left;  
+	padding: 15px;
+}
+.clearfix::after 
+{  
+	content: "";  
+	clear: both;  
+	display: table;
+}
+.menu 
+{  
+	width: 25%;
+}
+.content 
+{  
+	width: 75%;
+}
+.menu ul 
+{  
+	list-style-type: none;  
+	margin: 0;  
+	padding: 0;
+}
+.menu li 
+{  
+	padding: 8px; 
+	margin-bottom: 8px;  
+	background-color: purple;  
+	color: #ffffff;
+}
+.menu li:hover 
+{  
+	background-color: #DB7093;
+}
+</style>
+</head>
+<body>
+	<div class="header">  
+		<h1>Quản trị mạng</h1>
+	</div>
+	<div class="clearfix">  
+		<div class="column menu">    
+			<ul>      
+				<li>Làng công nghệ</li>      
+				<li>Công nghệ</li>      
+				<li>Khoa học</li>      
+				<li>Cuộc sống</li>      
+				<li>Ứng dụng</li>      
+				<li>Lập trình</li>    
+			</ul>  
+		</div>  
+		<div class="column content">    
+			<h1>Làng Công nghệ</h1>    
+			<p>Cập nhật những xu hướng, khám phá, nghiên cứu mới nhất về khoa học công nghệ.</p>    
+			<p>Bạn có thể trở thành một phần của Quantrimang.com bằng cách gửi bài viết, trải nghiệm công nghệ của mình về cho đội ngũ quản lý nội dung của mạng xã hội thông qua địa chỉ email info@meta.vn hoặc đăng ký tài khoản và đăng bài trực tiếp trên Quantrimang.com.</p>  
+		</div>
+	</div>
+	<div class="footer">  
+		<p>Bản quyền © 2003-2019 QuanTriMang.com.</p>
+	</div>
+</body>
+</html>
